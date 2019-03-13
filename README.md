@@ -6,8 +6,7 @@ This repository contains some Android projest wich are liste below:
 
 This is an android app Which include a PID control. For testing purposes it has deployed a proportional control system, the output signal is through audio. The set point is locked to the magnetic north. In order to use it you should click any play icon and rotate yourself. For better experience I recommend you to use earphones. 
 
-![Sonido1](/img/sonidos1.png)
-<img src="https://github.com/jonra1993/Android_Examples/blob/master/img/sonidos1.png" align="center" height="48" width="48" >
+<img src="https://github.com/jonra1993/Android_Examples/blob/master/img/sonidos1.png" align="center" height="144" width="72" >
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
