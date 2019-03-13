@@ -1,10 +1,12 @@
 ## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/jonra1993/Android_Examples/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This repository contains some Android projest wich are liste below:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Sonidos
 
-### Markdown
+This is an android app Which include a PID control. For testing purposes it has deployed a proportional control system, the output signal is through audio. The set point is locked to the magnetic north. In order to use it you should click any play icon and rotate yourself. For better experience I recommend you to use earphones. 
+
+[[https://github.com/jonra1993/Android_Examples/images/sonidos1.png|alt=octocat]]
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
