@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.e.jona.novoapp.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_latitud"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latitud!"
+            android:textSize="25dp"
+            android:layout_gravity="center" />
+        <TextView
+            android:id="@+id/latitud"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"
+            android:textSize="25dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/vacio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="25dp"
+            android:layout_gravity="center"/>
+
+
+        <TextView
+            android:id="@+id/text_longitud"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Longitud"
+            android:textSize="25dp"
+            android:layout_gravity="center" />
+        <TextView
+            android:id="@+id/longitud"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"
+            android:textSize="25dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/vacio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="25dp"
+            android:layout_gravity="center"/>
+
+
+        <TextView
+            android:id="@+id/text_velocidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Velocidad"
+            android:textSize="25dp"
+            android:layout_gravity="center" />
+        <TextView
+            android:id="@+id/velocidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"
+            android:textSize="25dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/vacio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="25dp"
+            android:layout_gravity="center"/>
+
+
+        <TextView
+            android:id="@+id/text_hora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hora UTG"
+            android:textSize="25dp"
+            android:layout_gravity="center" />
+        <TextView
+            android:id="@+id/hora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"
+            android:textSize="25dp"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/boton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GPS"
+            android:textSize="25dp"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:id="@+id/referencia"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_gravity="center" />
+            <TextView
+                android:id="@+id/distancia"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:text="Distancia"
+                android:textSize="25dp"
+                android:layout_gravity="center" />
+            <TextView
+                android:id="@+id/bearing"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
