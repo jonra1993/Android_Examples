@@ -8,6 +8,9 @@ This is an android app Which include a PID control. For testing purposes it has 
 
 ![]({{"/img/sonidos1.png"|absolute_url}})
 
+![GitHub Logo](/img/sonidos1.png)
+Format: ![Alt Text](url)
+
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
