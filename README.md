@@ -1,6 +1,4 @@
-# Android Porject made by Jonathan Vargas
-
-This repository contains some Android projest wich are liste below:
+This repository contains some Android projects wich are liste below:
 
 ## Sonidos
 
